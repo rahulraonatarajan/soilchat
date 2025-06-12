@@ -1,0 +1,22 @@
+{
+  "name": "soilchat",
+  "version": "1.0.0",
+  "description": "This repository contains a simple offline soil sample analyzer web prototype, running a small language model entirely in-browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
+    "jsdom": "^26.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFiles": ["./jest.setup.js"]
+  }
+}
