@@ -15,3 +15,13 @@ This repository contains a simple offline soil sample analyzer web prototype, ru
 4. Access your site at `https://<username>.github.io/<repo-name>/`.
 
 The site supports offline mode and allows analyzing soil data via file upload or manual entry.
+
+## Running Tests
+
+This project uses Jest for unit tests. Install dependencies with `npm install` and run:
+
+```bash
+npm test
+```
+
+The included test verifies CSV parsing logic in `handleFile()`.
